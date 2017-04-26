@@ -5,7 +5,7 @@
 Describe object-serialize here.
 
 
-`import ObSer from '../src';`
+`import ObSer from 'object-serialize';`
 
 ```
 ObSer({a:1,b:2})//a=1&b=2

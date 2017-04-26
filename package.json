@@ -1,6 +1,6 @@
 {
   "name": "object-serialize",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Describe object-serialize here",
   "main": "lib/index.js",
   "module": "es/index.js",
