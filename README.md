@@ -1,16 +1,12 @@
 # object-serialize
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+[![Build Status](https://travis-ci.org/moiamoia/object-serialize.svg?branch=master)](https://travis-ci.org/moiamoia/object-serialize)
 
 Describe object-serialize here.
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+`import ObSer from '../src';`
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+```
+ObSer({a:1,b:2})//a=1&b=2
+```
